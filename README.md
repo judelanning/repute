@@ -1,7 +1,7 @@
 # Repute
-## A tool that provides contexual information on IP addresses.
+## A tool that provides contextual information on IP addresses.
 
-Repute is a tool that provides contexual information on an IP address from VirusTotal, GreyNoise, and The Tor Project to assist in security investigations and/or automation.
+Repute is a tool that provides contextual information on an IP address from VirusTotal, GreyNoise, and The Tor Project to assist in security investigations and/or automation.
 
 ## What information does it provide?
 #### VirusTotal:
