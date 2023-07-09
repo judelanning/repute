@@ -137,4 +137,5 @@ Here is another example running the script to check 209.141.57.178, an IP curren
 
     python3 repute.py 209.141.57.178
 
+The results:
 ![Screenshot 2023-07-09 040459](https://github.com/judelanning/repute/assets/122243110/881e0b02-1456-48a1-8292-a1c9df84ebbf)
