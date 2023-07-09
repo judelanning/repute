@@ -58,7 +58,7 @@ Run the script followed by IP address
 
     python3 repute.py #.#.#.#
 
-Here is an example running the script to check 154.41.229.11, the IP currently being used to host a phishing website:
+Here is an example running the script to check 154.41.229.11, an IP currently being used to host a phishing website:
 
     python3 repute.py 179.48.251.188
 
