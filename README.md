@@ -133,3 +133,8 @@ The results:
 
 ![Screenshot 2023-07-09 035833](https://github.com/judelanning/repute/assets/122243110/b311bc72-952a-4fd4-8ccd-3c3037960336)
 
+Here is another example running the script to check 209.141.57.178, an IP currently serving as a Tor exit node:
+
+    python3 repute.py 209.141.57.178
+
+![Screenshot 2023-07-09 040459](https://github.com/judelanning/repute/assets/122243110/881e0b02-1456-48a1-8292-a1c9df84ebbf)
