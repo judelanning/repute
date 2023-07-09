@@ -129,6 +129,7 @@ Here is an example running the script to check 154.41.229.11, the IP currently b
 
     python3 repute.py 179.48.251.188
 
-The results:
+The results
+
 ![Screenshot 2023-07-09 035833](https://github.com/judelanning/repute/assets/122243110/b311bc72-952a-4fd4-8ccd-3c3037960336)
 
