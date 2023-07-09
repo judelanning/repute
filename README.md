@@ -140,3 +140,11 @@ Here is another example running the script to check 209.141.57.178, an IP curren
 The results:
 
 ![Screenshot 2023-07-09 040459](https://github.com/judelanning/repute/assets/122243110/881e0b02-1456-48a1-8292-a1c9df84ebbf)
+
+Here is one more example running the script to check 185.241.208.236, another Tor node that GreyNoise has flagged as malicious for attempting to exploit log4j:
+
+    python3 repute.py 185.241.208.236
+
+The results:
+
+![Screenshot 2023-07-09 040944](https://github.com/judelanning/repute/assets/122243110/5d2b62ea-5a8d-40c8-8304-fdb20cdc2b84)
