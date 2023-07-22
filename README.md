@@ -26,6 +26,7 @@ Repute is a tool that provides contextual information on IP addresses from Virus
         * sys
         * json
         * urllib.request
+        * ipaddress
     * Non-default libraries
         * python-dotenv (To store API keys)
 * VirusTotal API Key
