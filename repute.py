@@ -8,6 +8,9 @@ import requests
 #Used to read IP address from CLI.
 import sys
 
+#Used to verify IP address format
+import ipaddress
+
 #Used to parse API response.
 import json
 
@@ -147,9 +150,26 @@ def start_script():
     except:
         print("No IP given, try again")
         exit()
+    check_ip(ip)
     virus_total_ip_check(ip)
     greynoise_ip_check(ip)
     tor_exit_node_check(ip)
+
+#Checks for proper IP address format.
+def check_ip(ip):
+    #Checks for proper IPv4/6 Formatting. Will return error if not correct format.
+    try:
+        ipaddress.ip_address(ip)
+
+    #If an error is returned, the user input is not a valid IP address.
+    except:
+        print("Not a valid IP address, try again.")
+        exit()
+
+    #Checks to see if the IP address is private. If so, the script will exit.
+    if ipaddress.ip_address(ip).is_private == True:
+        print(ip + " is a private IP address. Please try again with a public IP address.")
+        exit()
 
 #Starts script.
 start_script()
